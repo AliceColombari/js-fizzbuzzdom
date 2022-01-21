@@ -1,6 +1,6 @@
 // appendi un elemento html con il numero o la stringa corretta - visibilità
 
-// costante boxContainer, rende visibile nell'html l'ID container
+// richiamo il container attraverso una variabile
 const boxContainer = document.getElementById('container');
 
 // suddivisione in base ai multipli con ciclo for + condizione
@@ -28,7 +28,7 @@ for (let i = 1; i <= 100; i++) {
         console.log(i);
     }
 
-    // costante = box (caratteristiche nello style) concatenato a variabile fizzBuzz + visibilità html
-    const newBox = `<div class="box ${fizzBuzz}">${fizzBuzz}</div>`;
-    boxContainer.innerHTML += newBox;
+    //boxContainer.innerHTML = boxContainer.innerHTML + "<div class='box'>" + i + "</div>";
+    boxContainer.innerHTML += "<div class='box'>" + i + "</div>";
+
 }
