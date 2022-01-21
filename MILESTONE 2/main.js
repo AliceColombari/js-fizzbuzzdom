@@ -1,14 +1,14 @@
 // appendi un elemento html con il numero o la stringa corretta - visibilità
 
 // richiamo il container attraverso una variabile
-const boxContainer = document.getElementById('container');
+var boxContainer = document.getElementById('container');
 
 // suddivisione in base ai multipli con ciclo for + condizione
 for (let i = 1; i <= 100; i++) {
     console.log (i);
     
     // variabile
-    let fizzBuzz;
+    var fizzBuzz;
 
     // multipli di 3 e 5 stampo fizzbuzz
     if (i % 3 == 0 && i % 5 == 0) {
@@ -28,6 +28,7 @@ for (let i = 1; i <= 100; i++) {
         console.log(i);
     }
 
+    /* operazione di concatenazione di stringa */
     //boxContainer.innerHTML = boxContainer.innerHTML + "<div class='box'>" + i + "</div>";
     boxContainer.innerHTML += "<div class='box'>" + i + "</div>";
 
