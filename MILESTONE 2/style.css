@@ -33,16 +33,3 @@ h1{
     justify-content: center;
     background-color: #118ab2;
 }
-
-/* colori dei diversi box in base al multiplo */
-.box.fizz{
-    background-color: #61d2a4;
-}
-
-.box.buzz {
-    background-color: #f9d277;
-}
-
-.box.fizzbuzz {
-    background-color: #de5471;
-}
